@@ -53,7 +53,7 @@ def Run():
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, PRE_RESOLUTION[1])
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, PRE_RESOLUTION[0])
     imagesize = (cap.get(4), cap.get(3))
-    cv2.namedWindow('Vishesh progamer', cv2.WINDOW_NORMAL)
+    cv2.namedWindow('Vishesh pro gamer', cv2.WINDOW_NORMAL)
     print("Video capturing initialized.")
 
     state = 0
@@ -132,7 +132,7 @@ def Run():
             cv2.rectangle(image_bgr, (curbox.left, curbox.top), (curbox.right, curbox.bottom), bcolor, 2, 1)
 
         #show the current frame
-        cv2.imshow('Write on Air!', image_bgr)
+        cv2.imshow('Vishesh pro gamer', image_bgr)
 
         #scan for key press
         k = cv2.waitKey(1)
